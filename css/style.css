@@ -52,3 +52,8 @@ td{
 .material-symbols-rounded{
     transform: scale(4)
 }
+@media screen and (max-width: 538px) {
+    .container{
+        transform: scale(0.8) translateY(100px);
+                }
+}
