@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0);
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0);
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://jquery.com/jquery-wp-content/themes/jquery/images/dark-grey-tile.png);
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgba(255, 255, 255, 0.568);
+    border-radius: 50px;
+    margin-top: 50px;
+    
+}
+table{
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 50px ;
+    border: 1px solid white;
+    text-align: center;
+    transform: scale(1.020);
+    
+}
+table tr:nth-child(1) td:nth-child(1){
+    border-top-left-radius: 50px ;
+}
+table tr:nth-child(1) td:nth-child(3){
+    border-top-right-radius: 50px ;
+}
+table tr:nth-child(3) td:nth-child(1){
+    border-bottom-left-radius: 50px ;
+}
+table tr:nth-child(3) td:nth-child(3){
+    border-bottom-right-radius: 50px ;
+}
+
+tr{
+    width: 100%;
+    border: 1px solid white ;
+    height: 33.3%;
+}
+td{
+     border: 1px solid white;
+     width: 163.33px;
+     cursor: pointer;
+     /* height: 163.33px; */
+}
+.material-symbols-rounded{
+    transform: scale(4)
+}
