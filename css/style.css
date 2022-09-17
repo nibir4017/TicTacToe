@@ -55,5 +55,6 @@ td{
 @media screen and (max-width: 538px) {
     .container{
         transform: scale(0.8) translateY(20px);
+        margin: -30px !important;
                 }
 }
